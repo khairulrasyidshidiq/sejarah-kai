@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+#navitem{
+    margin-left: 300px;
+}
+
+.fonthead{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+.fontsubhead{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.hovertext:hover{
+    color: #FF0000;
+}
+
+.backgroundhead{
+    background-image: url(../IMG/baru.jpg);
+}
+
+.backgroundsubhead{
+    padding-top: 40px;
+    background-color: rgba(61, 58, 28, 0.4);
+    padding-bottom: 40px;
+    min-height: fit-content;
+}
+
+.boxnav{
+    box-shadow:  1px 1px 5px 2px rgb(203, 190, 190, 0.4);
+}
+
+.textarea{
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+
+.textarea1{
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(125, 91, 31, 0.2);
+}
+
+.boxtext:hover{
+    transform: translateY(-15px);
+    box-shadow:  1px 1px 5px 2px rgba(139, 127, 127, 0.8);
+    transition: 0.5s;
+}
+
+.textarea2{
+    margin-top: 40px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(125, 91, 31, 0.2);
+}
+
+.subarea{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
